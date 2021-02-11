@@ -1,0 +1,10 @@
+name: tornado
+channels:
+  - defaults
+dependencies:
+  - pip=20.3.3
+  - python=3.7.9
+  - pip:
+    - tornado==4.0.2
+    - click==7.1.2
+    - pyinstaller==4.2
