@@ -1,19 +1,15 @@
-# Websocket
+# Dummy ASR Engine
 
-Implementation of websocket client and server using Python
+Implementation of a dummy ASR engine using the tornado Python library.
 
-## Server
-
-Implementation of websocket server is done using tornado library
-
-### Create Conda Environment
+## Create Conda Environment
 
 ```bash
 $ conda env create --file server/environment.yml
 $ conda activate tornado
 ```
 
-### Run Websocket Server
+## Run Websocket Server
 
 ```bash
 $ cd server
